@@ -10,7 +10,7 @@ const handleErrors = (err) => {
 
     if(err.code === 11000) {
         errors.email = 'That email is already registered';
-        return errors; 
+        return errors;                         
     }
 
     // validation errors 
